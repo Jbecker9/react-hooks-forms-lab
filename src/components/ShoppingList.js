@@ -9,18 +9,6 @@ function ShoppingList({ items, onSetItems }) {
 
   const filteredNames = items.filter((item) => item.name === search)
 
-  function handleSearchChange(event){
-    const eTarget = event.target.value
-    // console.log(eTarget)
-    const nameMap = items.map((item) => (item.name))
-    // console.log(nameMap)
-    if(eTarget === nameMap){
-      const nameFilter = nameMap.filter((names) => names === eTarget)
-      console.log(nameFilter)
-    } else {
-    }
-    
-  }
 
   function handleCategoryChange(event) {
     setSelectedCategory(event.target.value);
