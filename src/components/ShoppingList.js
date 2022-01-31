@@ -6,7 +6,9 @@ import Item from "./Item";
 function ShoppingList({ items, onSetItems }) {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [search, setSearch] = useState("")
-  
+  const [addItem, setItem] = useState({})
+
+  function onAddItem
 
   function handleSearchChange(event){
     const eTarget = event.target.value
