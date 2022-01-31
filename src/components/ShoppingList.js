@@ -8,7 +8,9 @@ function ShoppingList({ items, onSetItems }) {
   const [search, setSearch] = useState("")
   const [addItem, setItem] = useState({})
 
-  function onAddItem
+  function onAddItem(){
+    
+  }
 
   function handleSearchChange(event){
     const eTarget = event.target.value
